@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
-#%matplotlib inline
+
 from keras.models import Sequential
 from keras.layers import Flatten, Dense, Lambda, Cropping2D, Dropout, Activation
 from keras.layers.convolutional import Convolution2D

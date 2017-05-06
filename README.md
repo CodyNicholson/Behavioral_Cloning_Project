@@ -110,13 +110,14 @@ Here is a visualization of the architecture:
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt tag](https://github.com/CodyNicholson/Behavioral_Cloning_Project/blob/master/data/IMG/center_2017_05_04_09_38_34_490.jpg?raw=true)
+![alt tag](imgs/center_lane_driving.jpg)
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to correct itself on its own. Then I repeated this process on track two in order to get more data points.
+
+![alt tag](imgs/recover.gif)
 
 After the collection process, I had 14,423 number of data points. I then preprocessed this data by randomly shuffling the data set and put 20% of the data into a validation set.
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 9 as evidenced by the training history dropout img you can see below:
 
-![alt tag](https://github.com/CodyNicholson/Behavioral_Cloning_Project/blob/master/training_vs_validation.png?raw=true)
-
+![alt tag](imgs/training_vs_validation.png)
