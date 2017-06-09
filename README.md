@@ -89,15 +89,15 @@ Here is a visualization of the architecture:
 |----------------|---------------|
 | Lambda         | (160, 320, 3) |
 | Convolution2D  | (24, 5, 5)    |
-| Dropout        | (1)           |
+| Dropout        | (0.2)         |
 | Convolution2D  | (36, 5, 5)    |
-| Dropout        | (1)           |
+| Dropout        | (0.2)         |
 | Convolution2D  | (48, 5, 5)    |
-| Dropout        | (1)           |
+| Dropout        | (0.2)         |
 | Convolution2D  | (64, 3, 3)    |
-| Dropout        | (1)           |
+| Dropout        | (0.2)         |
 | Convolution2D  | (64, 3, 3)    |
-| Dropout        | (1)           |
+| Dropout        | (0.2)         |
 | Flatten        | (576)         |
 | Dense          | (100)         |
 | Dropout        | (0.5)         |
